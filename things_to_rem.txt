@@ -1,0 +1,8 @@
+fav icon=A favicon is a small, 16x16 pixel icon used on web browsers to represent a website or a web page
+<span> a special tag that allows you to add stylijng to just a part of text or the page. it acts as a container for styling 
+rel attribute is used to define the realtionship btw the resource and the file/link.
+root: is the higest class, it is used to declare stufff that can be used through out the doc
+.c1 space .numbers it wont work without space.
+vh = view port height ie the height of the sc reen that you are viewing.
+flex makes it dynamic to change
+settimeout () take miliseconds as paramters. 

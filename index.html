@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My stopwatch</title>
+     <link rel="icon" type="image/x-icon" href="./clock.png"><!--  this is a fav icon -->
+     <link rel="stylesheet" href="./style.css">
+     <script src="script.js"></script>
+
+     <!-- stop watch -->
+</head>
+<body>
+    <!-- 10hr 30 min 40 sec -->
+    <!--c1  -->
+    <div  class="c1">
+        <p id="min"class="number"> 00
+            <span>MIN</span>
+        </p>
+        <p id="sec"class="number"> 00
+            
+            <span>SEC</span>
+        </p>
+        <p  id="msec"class="number"> 00
+            
+            <span> MS</span>
+        </p>  
+    </div>
+    <!-- c1 -->
+
+    <!-- c2 for buttons -->
+
+    <div class="c2">
+
+    <button onclick="stop()">Stop</button>
+    <button onclick="start()">Start</button> 
+    <button onclick="reset()">Reset</button>
+    <button onclick="resume()">Resume</button>
+    
+    </div>
+
+    <!-- c2 -->
+</body>
+</html>
